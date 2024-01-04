@@ -1,0 +1,147 @@
+/*general*/
+a{
+    text-decoration: none;
+    color: #DB6E2A;
+}
+
+body{
+    background-color: #F3F2EE;
+}
+
+.container-fluid{
+    padding: 6%;
+}
+
+.container{
+    padding: 2%;
+}
+
+i{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: montserrat;
+    color: #DB6E2A;
+    font-size: 32px;
+}
+
+h2{
+    color: #93C96E;
+    font-size: 24px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+}
+
+/*navbar*/
+nav{
+    padding-top: 2%;
+}
+
+.button {
+    background-color: #93C96E;
+    border: none;
+    border-radius: 100px;
+    transition-duration: 0.4s;
+    padding: 10px;
+    width: 75px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    margin: 2px;
+  }
+  
+.button:hover{
+    background-color: #4BB0AC;
+    color: white;
+}
+
+/*hero*/
+.heroImg{
+    height: auto;
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#hero{
+    background-image: url('orange_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*about me*/
+#portrait{
+    max-width: 200px;
+    padding-right: 20px;
+}
+
+/*works*/
+.img-xs{
+    height: 150px;
+    margin: 3px;
+}
+
+.img-sm{
+    height: 300px;
+    margin: 3px;
+}
+
+.img-long{
+    height: 200px;
+    margin: 3px;
+}
+
+.img-tall{
+    width: 300px;
+    margin: 3px;
+}
+
+.img-slim{
+    width: 200px;
+    margin: 3px;
+}
+
+.img-click{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.img-click-no-shadow{
+    cursor: pointer;
+}
+
+.img-click:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.modal-1x1{
+    width: 600px;
+}
+
+.modal-3x4{
+    width: 800px;
+}
+
+/*contacts*/
+#contactsImg{
+    max-width: 300px;
+}
+
+footer{
+    background-color: #E6A922;
+    height: 108px;
+    padding: 20px;
+}
